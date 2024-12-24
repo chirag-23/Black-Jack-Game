@@ -13,9 +13,7 @@ html{
     background: rgb(232,224,117);
     background: linear-gradient(0deg, rgba(232,224,117,1) 0%, rgba(1,1,1,1) 15%);
     color: gold;
-    /* font-family: 'Lobster', cursive; */
     font-family: 'Pushster', cursive;
-    /* font-family: 'Ubuntu', sans-serif; */
     padding: .5rem;
     font-size: 8rem;
     word-spacing: 2rem;

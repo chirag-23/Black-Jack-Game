@@ -22,13 +22,10 @@ function drawCard(activeplayer) {
     card.src = `./static/${currentCard}.png`;
     document.querySelector(activeplayer['div']).appendChild(card);
     hitsound.play();
-    
-    // Update Score
+
     updateScore(currentCard, activeplayer);
 
-    // Show Score
-    showScore(activeplayer);
-    
+    showScore(activeplayer);    
 }
 
 function updateScore(currentcard, activeplayer){
